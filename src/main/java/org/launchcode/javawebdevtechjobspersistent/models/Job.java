@@ -14,9 +14,9 @@ public class Job extends AbstractEntity {
     public Job() {
     }
 
-    public Job(Employer employer) {
+    public Job(Employer employer, String Skills) {
         this.employer = employer;
-        this.skills = someSkills;
+        this.skills = Skills;
     }
 
     // Getters and setters.
